@@ -1,6 +1,6 @@
-DAWOO Excel Add-in 6.2.10
+DAWOO Excel Add-in 6.2.11
 
-- 기존 Picture 모듈을 삭제하고 새 모듈명을 Picture_Insert로 변경했습니다.
-- 사진 버튼이 Picture_Insert.DAWOO_Picture_Insertion_Auto를 직접 실행합니다.
-- 리본에 별도 사진대지 다운로드 버튼을 추가했습니다.
-- 배포 ZIP에 04 사진대지.xlsm 원본 파일을 함께 첨부했습니다.
+- 자동 업데이트 ZIP 압축 해제 시 "경로에 잘못된 문자가 있습니다" 오류가 발생하던 문제를 수정했습니다.
+- 배포 ZIP 내부의 파일 및 폴더 이름을 영문으로 통일했습니다.
+- Windows 기본 tar.exe를 우선 사용하고, 사용할 수 없을 때만 Expand-Archive를 사용합니다.
+- Picture_Insert 연결과 사진대지 기능은 그대로 포함됩니다.
