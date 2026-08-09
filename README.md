@@ -4,12 +4,12 @@ Windows Excel용 DAWOO VBA 추가기능입니다.
 
 ## 설치
 
-1. [DAWOO_Excel_Addin_6.5.1.zip](https://github.com/leecycle/DAWOO-Excel-Addin/releases/download/v6.5.1/DAWOO_Excel_Addin_6.5.1.zip)을 다운로드합니다.
+1. [DAWOO_Excel_Addin_7.0.0.zip](https://github.com/leecycle/DAWOO-Excel-Addin/releases/download/v7.0.0/DAWOO_Excel_Addin_7.0.0.zip)을 다운로드합니다.
 2. ZIP을 완전히 압축 해제합니다.
 3. Excel과 VBA 편집기를 모두 종료합니다.
 4. INSTALL.cmd를 실행합니다.
 
-설치 위치: `C:\My DATA\00 기본설정\EXCEL\추가기능\다우추가기능.xlam`
+설치 위치: `C:\DAWOO\Add-In\다우추가기능.xlam`
 
 ## 서식
 
@@ -18,11 +18,14 @@ Windows Excel용 DAWOO VBA 추가기능입니다.
 
 ## 파일정리
 
-상태 검사, 안전 정리, 고급 선택 정리, 사용자 지정 스타일 전체 삭제를 지원합니다. 백업은 `C:\backup\excel add-in`에 저장합니다.
+- 안전 정리는 깨진 이름, 사용자 지정 스타일, 불필요한 사용 범위를 자동 백업 후 정리합니다.
+- Excel 기본 내장 스타일은 보존합니다.
+- 안전 정리의 스타일 삭제 전 백업은 현재 통합문서 폴더의 `BackUp`에 저장합니다.
+- 일반 백업은 `%LOCALAPPDATA%\DAWOO\Add-in`에 저장합니다.
 
-## 6.5.1 수정
+## 7.0.0 수정
 
-저장되지 않은 새 통합문서에서 사진 버튼을 눌렀을 때 발생하던 오류를 수정했습니다. 저장 전 통합문서는 Excel 기본 폴더에서 사진 폴더 선택을 시작합니다.
+백업 위치를 용도별로 분리하고 설치 파일 교체 전 백업도 로컬 사용자 백업 폴더에 저장하도록 변경했습니다.
 
 ## 업데이트
 
@@ -30,4 +33,4 @@ Excel의 추가 기능 탭에서 업데이트 확인 버튼을 눌렀을 때만 
 
 ## 현재 버전
 
-6.5.1
+7.0.0
