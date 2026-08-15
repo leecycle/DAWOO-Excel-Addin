@@ -1,6 +1,6 @@
-DAWOO Excel Add-in 7.0.5-beta.5
+DAWOO Excel Add-in 7.0.6-beta.6
 
-- 업데이트 설치 중 발생한 XLAM 파일 액세스 오류를 수정했습니다.
-- XLAM 완성본 저장 방식을 SaveCopyAs로 변경했습니다.
-- 전체 메뉴 상세 도움말을 제공합니다.
-- 백업 위치를 %LOCALAPPDATA%\DAWOO\Add-in으로 안내합니다.
+- 업데이트 설치 중 한글 XLAM 파일명이 깨지는 오류를 수정했습니다.
+- INSTALL.ps1을 한국어 Windows용 ANSI/CP949로 적용했습니다.
+- 압축 해제 후 다우추가기능.xlam 한글 경로와 PowerShell 구문을 검증했습니다.
+- 상세 도움말과 공용 백업 경로 안내를 유지합니다.
