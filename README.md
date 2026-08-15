@@ -4,7 +4,7 @@ Windows Excel용 DAWOO VBA 추가기능입니다.
 
 ## 설치
 
-1. [DAWOO_Excel_Addin_7.0.0.zip](https://github.com/leecycle/DAWOO-Excel-Addin/releases/download/v7.0.0/DAWOO_Excel_Addin_7.0.0.zip)을 다운로드합니다.
+1. [DAWOO_Excel_Addin_7.1.0.zip](https://github.com/leecycle/DAWOO-Excel-Addin/releases/download/v7.1.0/DAWOO_Excel_Addin_7.1.0.zip)을 다운로드합니다.
 2. ZIP을 완전히 압축 해제합니다.
 3. Excel과 VBA 편집기를 모두 종료합니다.
 4. INSTALL.cmd를 실행합니다.
@@ -13,7 +13,7 @@ Windows Excel용 DAWOO VBA 추가기능입니다.
 
 ## 서식
 
-- 사진대지: 사진대지 파일을 다운로드합니다.
+- 사진대지: 새 04 사진대지.xlsx 파일을 다운로드합니다.
 - 기본양식: GitHub 기본양식을 열고 시트를 확인한 뒤 체크한 시트만 현재 통합문서로 복사합니다.
 
 ## 파일정리
@@ -23,14 +23,14 @@ Windows Excel용 DAWOO VBA 추가기능입니다.
 - 안전 정리의 스타일 삭제 전 백업은 현재 통합문서 폴더의 `BackUp`에 저장합니다.
 - 일반 백업은 `%LOCALAPPDATA%\DAWOO\Add-in`에 저장합니다.
 
-## 7.0.0 수정
+## 7.1.0 변경
 
-백업 위치를 용도별로 분리하고 설치 파일 교체 전 백업도 로컬 사용자 백업 폴더에 저장하도록 변경했습니다.
+7.0.0 이후 베타 테스트 변경 사항을 정식 버전으로 통합했습니다. 리본 하단 버튼과 아이콘, 상세 도움말, 빠른 실행 도구 모음, 정식/베타 업데이트 채널 및 설치 안정성을 개선했습니다.
 
 ## 업데이트
 
-Excel의 추가 기능 탭에서 업데이트 확인 버튼을 눌렀을 때만 새 버전을 확인합니다. 다운로드 파일은 SHA-256 검증 후 설치됩니다.
+Excel의 추가 기능 탭에서 업데이트 버튼을 눌렀을 때 새 버전을 확인합니다. 다운로드 파일은 SHA-256 검증 후 설치됩니다.
 
 ## 현재 버전
 
-7.0.0
+7.1.0
