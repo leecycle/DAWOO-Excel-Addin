@@ -6,7 +6,7 @@ Windows Excel용 DAWOO VBA 추가기능입니다.
 
 ## 설치
 
-1. [DAWOO_Excel_Addin_7.1.0.zip](https://github.com/leecycle/DAWOO-Excel-Addin/releases/download/v7.1.0/DAWOO_Excel_Addin_7.1.0.zip)을 다운로드합니다.
+1. [DAWOO_Excel_Addin 최신버전을 다운로드합니다.
 2. ZIP을 완전히 압축 해제합니다.
 3. Excel과 VBA 편집기를 모두 종료합니다.
 4. INSTALL.cmd를 실행합니다.
