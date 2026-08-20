@@ -1,6 +1,6 @@
 # DAWOO Excel Add-in
 
-![DAWOO Excel Add-in 리본 메뉴](docs/images/dawoo-excel-addin-ribbon-7.1.0.png)
+![DAWOO Excel Add-in 리본 메뉴](docs/images/dawoo-excel-addin-ribbon-8.0.0.png)
 
 Windows Excel용 DAWOO VBA 추가기능입니다.
 
